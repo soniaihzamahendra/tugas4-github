@@ -1,55 +1,63 @@
+/* Mengatur tampilan keseluruhan halaman */
 body {
-    font-family: sans-serif;
-    padding: 20px;
-    line-height: 1.6;
-    background-color: #fff5f8; 
-    color: #333; 
-    border-radius: 8px;
+    font-family: sans-serif; /* Menggunakan font sans-serif */
+    padding: 20px; /* Memberikan jarak pada bagian dalam halaman */
+    line-height: 1.6; /* Mengatur jarak antar baris teks */
+    background-color: #fff5f8; /* Memberikan bg color pink pastel pada seluruh halaman */
+    color: #333; /* Warna teks gelap agar mudah dibaca */
+    border-radius: 8px; /* Menambahkan sudut melengkung pada halaman */
   }
-
+  
+  /* Mengatur tampilan judul utama */
   h1 {
-    text-align: center;
-    background-color: #fcb8d2; 
-    padding: 20px;
-    border-radius: 8px;
-    color: #fff; 
+    text-align: center; /* memposisikan judul di tengah */
+    background-color: #fcb8d2; /* Memberikan latar belakang pink pastel pada judul */
+    padding: 20px; /* Memberikan jarak di dalam judul */
+    border-radius: 8px; /*menambahkan Sudut melengkung */
+    color: #fff; /* Warna teks putih */
   }
   
+  /* Mengatur tampilan sub-judul */
   h2 {
-    background-color: #b3c7ff; 
-    color: #fff; 
-    padding: 15px;
-    border-radius: 6px;
+    background-color: #b3c7ff; /* Memberikan bg color biru pastel pada sub-judul */
+    color: #fff; /* Warna teks putih  */
+    padding: 15px; /* Memberikan jarak di dalam sub-judul */
+    border-radius: 6px; /* menambahkan Sudut melengkung */
   }
-
+  
+  /* Mengatur tampilan list (ul dan ol) */
   ul, ol {
-    margin-left: 20px;
-    background-color: #ffebcc; 
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; /* Memberikan margin kiri */
+    background-color: #ffebcc; /* bg color kuning pastel untuk list */
+    padding: 20px; /* Memberikan jarak di dalam list */
+    border-radius: 8px; /* Sudut melengkung pada list */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada list*/
   }
   
+  /* Mengatur tampilan item dalam list */
   ul li, ol li {
-    margin-bottom: 10px;
-    font-size: 1.1em;
+    margin-bottom: 10px; /* Memberikan jarak antar item list */
+    font-size: 1.1em; /* membuat Ukuran font sedikit lebih besar */
   }
-
+  
+  /* Mengatur tampilan link */
   a {
-    color: #9b5de5; 
-    text-decoration: none;
+    color: #9b5de5; /* Memberikan warna ungu pastel pada link */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
   }
   
+  /* Mengatur tampilan saat link dihover */
   a:hover {
-    text-decoration: underline;
-    color: #7a4ea5; 
+    text-decoration: underline; /* Menambahkan garis bawah saat link dihover */
+    color: #7a4ea5; /* Mengubah warna link menjadi ungu yang lebih gelap saat dihover */
   }
   
+  /* Mengatur tampilan paragraf */
   p {
-    background-color: #fff0f7; 
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    background-color: #fff0f7; /* Memberikan bg color pink pastel  */
+    padding: 20px; /* Memberikan jarak di dalam paragraf */
+    border-radius: 8px; /* menambahkan Sudut melengkung */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada paragraf */
+    margin-bottom: 20px; /* Memberikan jarak antar paragraf */
   }
   
